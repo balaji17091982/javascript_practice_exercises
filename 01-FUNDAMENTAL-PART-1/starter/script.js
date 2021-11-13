@@ -47,7 +47,7 @@
 // console.log("Name of the Country:", countryName);
 // console.log("Name of the Continent:", continentName);
 // console.log("Population of the Country (in millions):", populationInMillions, 'M');
-
+//==============================================================
 // // Datatypes
 // //Number
 // console.log("========================================");
@@ -100,7 +100,7 @@
 // //JS will also accept variables without let or const or var.
 // //It will not create the variable in the local scope, instead it will create a property on the Global object.
 // //This may create many problems.
-
+//==============================================================
 // //Basic Operators:
 // const now = 2021;
 // //subtraction
@@ -130,7 +130,7 @@
 // console.log(ageBalaji >= ageAbhinav);
 // console.log(ageBalaji <= ageAbhinav);
 // console.log(ageBalaji == ageAbhinav);
-
+//==============================================================
 // // Operator Precedence
 
 // //Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
@@ -150,30 +150,31 @@
 // const averageAgeCorrect = (ageBalaji + ageAbhinav) / 2;
 // console.log("wrong average:",averageAgeWrong);
 // console.log("correct average:",averageAgeCorrect);
+//==============================================================
+// // Coding Challenge
 
-// Coding Challenge
+// let heightMark = 1.69;
+// let heightJohn = 1.95;
+// let weightMark = 78;
+// let weightJohn = 95;
 
-let heightMark = 1.69;
-let heightJohn = 1.95;
-let weightMark = 78;
-let weightJohn = 95;
+// let bmiMark = weightMark / (heightMark ** 2);
+// let bmiJohn = weightJohn / (heightJohn ** 2);
+// let markHigherBmi = (bmiMark > bmiJohn)
 
-let bmiMark = weightMark / (heightMark ** 2);
-let bmiJohn = weightJohn / (heightJohn ** 2);
-let markHigherBmi = (bmiMark > bmiJohn)
+// console.log("BMI MARK:", bmiMark);
+// console.log("BMI JOHN:", bmiJohn);
+// console.log("(BMI MARK > BMI JOHN):", markHigherBmi);
 
-console.log("BMI MARK:", bmiMark);
-console.log("BMI JOHN:", bmiJohn);
-console.log("(BMI MARK > BMI JOHN):", markHigherBmi);
+// heightMark = 1.88;
+// heightJohn = 1.76;
+// weightMark = 95;
+// weightJohn = 85;
 
-heightMark = 1.88;
-heightJohn = 1.76;
-weightMark = 95;
-weightJohn = 85;
-
-bmiMark = weightMark / (heightMark ** 2);
-bmiJohn = weightJohn / (heightJohn ** 2);
-markHigherBmi = (bmiMark > bmiJohn)
-console.log("BMI MARK:", bmiMark);
-console.log("BMI JOHN:", bmiJohn);
-console.log("(BMI MARK > BMI JOHN):", markHigherBmi);
+// bmiMark = weightMark / (heightMark ** 2);
+// bmiJohn = weightJohn / (heightJohn ** 2);
+// markHigherBmi = (bmiMark > bmiJohn)
+// console.log("BMI MARK:", bmiMark);
+// console.log("BMI JOHN:", bmiJohn);
+// console.log("(BMI MARK > BMI JOHN):", markHigherBmi);
+//==============================================================
