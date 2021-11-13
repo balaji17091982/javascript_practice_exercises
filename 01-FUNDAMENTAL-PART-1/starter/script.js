@@ -54,21 +54,49 @@ console.log("========================================");
 console.log("Datatypes");
 console.log("========================================");
 let numberData = 5;
-console.log(numberData," ",typeof numberData);
+console.log(numberData, " ", typeof numberData);
 //String
 let stringData = "Balaji";
-console.log(stringData," ",typeof stringData);
+console.log(stringData, " ", typeof stringData);
 //Boolean
 let boolData = false;
-console.log(boolData," ",typeof boolData);
+console.log(boolData, " ", typeof boolData);
 // Undefined
 let undefinedData;
-console.log(undefinedData," ",typeof undefinedData);
+console.log(undefinedData, " ", typeof undefinedData);
 //Null
 let nullData = null;
-console.log(nullData," ",typeof nullData);
+console.log(nullData, " ", typeof nullData);
 
 // Dynamic typing (typecasting on the go)
 
 nullData = "NullData"
-console.log(nullData," ",typeof nullData);
+console.log(nullData, " ", typeof nullData);
+
+// let, const and var
+let myAge = 30;
+
+myAge = 31;   //'let' variable allows re-assigning/mutate
+//'let allows for empty variables'
+
+const birthYear = 1991;
+
+// birthYear = 1990;
+// Uncaught TypeError: Assignment to constant variable.
+
+//const does not allow empty variables.
+// const myBirthYear;
+//Uncaught SyntaxError: Missing initializer in const declaration
+//"var" type variable declaration to be avoided.
+//"var" works pretty much same as "let".
+var myAgeVar = 32;
+//allows mutation.
+myAgeVar = 33;
+//Difference between let and var is:
+// let is block scoped and
+// var is function scoped.
+
+
+//JS will also accept variables without let or const or var.
+//It will not create the variable in the local scope, instead it will create a property on the Global object.
+//This may create many problems.
