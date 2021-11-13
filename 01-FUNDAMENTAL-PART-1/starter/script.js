@@ -131,24 +131,49 @@
 // console.log(ageBalaji <= ageAbhinav);
 // console.log(ageBalaji == ageAbhinav);
 
-// Operator Precedence
+// // Operator Precedence
 
-//Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
+// //Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
 
-let x, y;
-x = y = 25 - 10 - 5; // x = y = 10
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10
 
-console.log(x, y);
-//output = 10 10 because arithmetic operators have higher precedence than assignment operators.
+// console.log(x, y);
+// //output = 10 10 because arithmetic operators have higher precedence than assignment operators.
 
-const now = 2021;
-const yearOfBirthBalaji = 1982;
-const yearOfBirthAbhinav = 2016;
-const ageBalaji = now - yearOfBirthBalaji;
-const ageAbhinav = now - yearOfBirthAbhinav;
-const averageAgeWrong = ageBalaji + ageAbhinav / 2;
-const averageAgeCorrect = (ageBalaji + ageAbhinav) / 2;
-console.log("wrong average:",averageAgeWrong);
-console.log("correct average:",averageAgeCorrect);
+// const now = 2021;
+// const yearOfBirthBalaji = 1982;
+// const yearOfBirthAbhinav = 2016;
+// const ageBalaji = now - yearOfBirthBalaji;
+// const ageAbhinav = now - yearOfBirthAbhinav;
+// const averageAgeWrong = ageBalaji + ageAbhinav / 2;
+// const averageAgeCorrect = (ageBalaji + ageAbhinav) / 2;
+// console.log("wrong average:",averageAgeWrong);
+// console.log("correct average:",averageAgeCorrect);
 
+// Coding Challenge
 
+let heightMark = 1.69;
+let heightJohn = 1.95;
+let weightMark = 78;
+let weightJohn = 95;
+
+let bmiMark = weightMark / (heightMark ** 2);
+let bmiJohn = weightJohn / (heightJohn ** 2);
+let markHigherBmi = (bmiMark > bmiJohn)
+
+console.log("BMI MARK:", bmiMark);
+console.log("BMI JOHN:", bmiJohn);
+console.log("(BMI MARK > BMI JOHN):", markHigherBmi);
+
+heightMark = 1.88;
+heightJohn = 1.76;
+weightMark = 95;
+weightJohn = 85;
+
+bmiMark = weightMark / (heightMark ** 2);
+bmiJohn = weightJohn / (heightJohn ** 2);
+markHigherBmi = (bmiMark > bmiJohn)
+console.log("BMI MARK:", bmiMark);
+console.log("BMI JOHN:", bmiJohn);
+console.log("(BMI MARK > BMI JOHN):", markHigherBmi);
