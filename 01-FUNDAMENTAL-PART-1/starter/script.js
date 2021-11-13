@@ -100,3 +100,34 @@ myAgeVar = 33;
 //JS will also accept variables without let or const or var.
 //It will not create the variable in the local scope, instead it will create a property on the Global object.
 //This may create many problems.
+
+//Basic Operators:
+const now = 2021;
+//subtraction
+const ageBalaji=now-1982;
+const ageAbhinav = now-2016;
+
+console.log("Balaji Age:",ageBalaji);
+console.log("Abhinav Age:",ageAbhinav);
+//exponentiation **
+console.log("5**3 = ",5**3);
+
+//+ can be used for string concatenation
+const firstNameOperators='Balaji';
+const lastNameOperators='Venkatachalam';
+console.log(firstNameOperators,' ',lastNameOperators);
+
+let myValueOperator = 10+5;   //myValueOperator=15
+myValueOperator += 10;        //myValueOperator = myValueOperator + 10 = 25
+myValueOperator *= 4;          //myValueOperator = myValueOperator * 4 = 100
+myValueOperator++;  //myValueOperator = myValueOperator + 1 = 101
+myValueOperator--;  //myValueOperator = myValueOperator -1 = 100
+console.log(myValueOperator);
+
+// Comparison Operator
+console.log(ageBalaji > ageAbhinav);
+console.log(ageBalaji < ageAbhinav);
+console.log(ageBalaji >= ageAbhinav);
+console.log(ageBalaji <= ageAbhinav);
+console.log(ageBalaji == ageAbhinav);
+
