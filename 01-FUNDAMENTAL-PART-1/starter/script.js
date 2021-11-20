@@ -1,17 +1,30 @@
-// Coding Challenge-2
+// const day = 'monday';
 
-const HeightMark =  1.69;
-const MassMark = 78;
+// switch (day) {
+//     case 'monday':  //day === 'monday'
+//         console.log("Today is Monday!!!");
+//         console.log("Start of Week!!!");
+//         break;
+//     case 'tuesday':
+//         console.log('Today is Tuesday');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Work hard. Its mid week!!!')
+//         break;
+//     case 'friday':
+//         console.log("plan for week end");
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy Weekend!!!').
+//         break;
 
-const HeightJohn = 1.95;
-const MassJohn = 92;
+// }
+//Coding Challenge-4
 
-const BMIMark = MassMark/(HeightMark**2);
-const BMIJohn = MassJohn/(HeightJohn**2);
+const bill = Number(prompt("Enter the bill number"));
+let tip;
+tip =  ((bill >=50) && (bill < 300)) ? (15 * bill)/100 : (20 * bill)/100;
 
-if(BMIMark > BMIJohn) {
-    console.log(`MarkBMI (${BMIMark}) > JohnBMI (${BMIJohn})`)
-}
-else {
-    console.log(`MarkBMI (${BMIMark}) < JohnBMI (${BMIJohn})`)
-}
+console.log(`BILL VALUE: ${bill} TIP: ${tip} TOTAL: ${bill+tip}`);
